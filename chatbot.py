@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-pip install -r requirements.txt
 
 import nltk
 import string
