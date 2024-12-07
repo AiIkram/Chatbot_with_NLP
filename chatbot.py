@@ -105,7 +105,7 @@ st.title("Mental Health Chatbot")
 st.write("This chatbot provides answers to mental health-related questions.")
 
 # Load and preprocess Q&A dataset
-file_path = 'mental_health_qa.txt'
+file_path = 'mental_health_chatbot.txt'
 qa_pairs = load_and_preprocess(file_path)
 
 # User input
