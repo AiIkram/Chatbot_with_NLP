@@ -13,6 +13,7 @@ nltk.download('averaged_perceptron_tagger')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
+file_path = 'mental_health_chatbot.txt'
 def load_and_preprocess(file_path):
     """
     Load and preprocess a text file containing Q&A pairs.
@@ -105,7 +106,7 @@ st.title("Mental Health Chatbot")
 st.write("This chatbot provides answers to mental health-related questions.")
 
 # Load and preprocess Q&A dataset
-file_path = 'mental_health_chatbot.txt'
+
 qa_pairs = load_and_preprocess(file_path)
 
 # User input
